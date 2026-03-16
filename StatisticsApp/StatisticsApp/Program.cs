@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using StatisticsApp;
 
-Console.WriteLine("Enter numbers separated by space:");
+Console.WriteLine("Statistics calculator started");
 
 string input = Console.ReadLine();
 
