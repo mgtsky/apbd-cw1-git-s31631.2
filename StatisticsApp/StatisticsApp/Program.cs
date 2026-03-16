@@ -1,7 +1,11 @@
 ﻿using System.Linq;
 using StatisticsApp;
 
-Console.WriteLine("Welcome to statistics calculator");
+<<<<<<< HEAD
+Console.WriteLine("Welcome to statistics calculator!");
+=======
+Console.WriteLine("Statistics calculator started");
+>>>>>>> feature-conflict
 
 string input = Console.ReadLine();
 
