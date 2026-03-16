@@ -5,8 +5,13 @@ Console.WriteLine("Enter numbers separated by space:");
 
 string input = Console.ReadLine();
 
-string[] parts = input.Split(" ");
+if (string.IsNullOrEmpty(input))
+{
+    Console.WriteLine("Input cannot be empty.");
+    return;
+}
 
+string[] parts = input.Split(" ");
 int[] numbers = parts.Select(int.Parse).ToArray();
 
 double avg = StatisticsHelper.CalculateAverage(numbers);
