@@ -1,5 +1,5 @@
-﻿using StatisticsApp;
-
+﻿using System.Linq;
+using StatisticsApp;
 
 Console.WriteLine("Enter numbers separated by space:");
 
